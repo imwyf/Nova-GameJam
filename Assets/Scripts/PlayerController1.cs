@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 /// <summary>
 /// 本脚本实现：
@@ -19,7 +17,6 @@ public class PlayerController1 : MonoBehaviour
     bool isGround = false;
     GroundSensor gs;
     bool isJump;
-
 
     private void Start()
     {
@@ -43,7 +40,6 @@ public class PlayerController1 : MonoBehaviour
             Jump();
             isJump = false;
         }
-
     }
     private float GetMoveDirection()
     {
