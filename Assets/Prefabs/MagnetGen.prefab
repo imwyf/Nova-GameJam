@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5565680431394664087}
   - component: {fileID: 3240404107801780562}
+  - component: {fileID: 5749868348180777977}
   - component: {fileID: -960957962477977989}
   m_Layer: 0
   m_Name: MagnetGen
@@ -46,6 +47,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   strength: 5
+--- !u!114 &5749868348180777977
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3190456695209523642}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62317a7e94daa46488059c8593a95367, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!58 &-960957962477977989
 CircleCollider2D:
   m_ObjectHideFlags: 0
