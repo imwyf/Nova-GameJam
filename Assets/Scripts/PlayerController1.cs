@@ -51,7 +51,7 @@ public class PlayerController1 : MonoBehaviour
     }
     private void Move(float moveDirection)
     {
-        if (!Mathf.Approximately(moveDirection, 0.0f) && isGround && rb2D.velocity.magnitude <= maxSpeed) // 在地上才能走
+        if (!Mathf.Approximately(moveDirection, 0.0f) && rb2D.velocity.magnitude <= maxSpeed) // 在地上才能走
             rb2D.AddForce(new Vector2(moveDirection * h_force, 0.0f));
     }
     private void Jump()

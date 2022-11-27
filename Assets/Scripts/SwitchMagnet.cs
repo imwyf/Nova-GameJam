@@ -15,4 +15,11 @@ public class SwitchMagnet : MonoBehaviour
         if (other_MS != null) other_MS.tag = magnetTag;
         if (other_MG != null) other_MG.tag = magnetTag;
     }
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        var other_MS = other.transform.Find("MagnetSensor"); // 拿到碰撞对象的磁力传感器
+        var other_MG = other.transform.Find("MagnetGen"); // 拿到碰撞对象的磁场数据
+        if (other_MS != null) other_MS.tag = magnetTag;
+        if (other_MG != null) other_MG.tag = magnetTag;
+    }
 }
