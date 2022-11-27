@@ -8,11 +8,11 @@ using UnityEngine;
 /// </summary>
 public class ChangeHealth : MonoBehaviour
 {
-    public bool isDamage; // 是否造成伤害
+    public bool isAdd; // 是否
     // todo: 无敌时间？
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Player"))
-            other.GetComponent<Health>().ChangeHealth(isDamage);
+            other.GetComponent<Health>().ChangeHealth(isAdd);
     }
 }
