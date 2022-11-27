@@ -9,7 +9,7 @@ public class GroundSensor : MonoBehaviour
     public bool isGround;
     private void OnTriggerStay2D(Collider2D other)
     {
-        if (other != null)
+        if (other.CompareTag("Ground") || other.CompareTag("Player") || other.CompareTag("Interactive"))
             isGround = true;
     }
     private void OnTriggerExit2D(Collider2D other)
