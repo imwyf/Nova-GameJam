@@ -69,11 +69,11 @@ SpringJoint2D:
   m_BreakTorque: Infinity
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: 0, y: -7.0436535}
+  m_ConnectedAnchor: {x: 0.069999695, y: -2.5746155}
   m_AutoConfigureDistance: 1
   m_Distance: 0.005
   m_DampingRatio: 0
-  m_Frequency: 1
+  m_Frequency: 5
 --- !u!1 &4145335513171019622
 GameObject:
   m_ObjectHideFlags: 0
@@ -101,7 +101,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4145335513171019622}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.184, z: 0}
+  m_LocalPosition: {x: -0.007, y: 0.025, z: 0}
   m_LocalScale: {x: 0.1, y: 0.035578128, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -202,7 +202,7 @@ Rigidbody2D:
   m_LinearDrag: 0
   m_AngularDrag: 0
   m_GravityScale: 0
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 242ad1942b5cd4e40acd82b64f654334, type: 2}
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
@@ -221,7 +221,7 @@ GameObject:
   - component: {fileID: 4145335513944573173}
   m_Layer: 0
   m_Name: Spring
-  m_TagString: Untagged
+  m_TagString: Interactive
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -306,8 +306,8 @@ SpriteShapeRenderer:
   m_ShapeTexture: {fileID: 0}
   m_Sprites: []
   m_LocalAABB:
-    m_Center: {x: 0.0035240576, y: 0.058147103, z: 0}
-    m_Extent: {x: 0.11057218, y: 0.12814711, z: 0}
+    m_Center: {x: -0.00704813, y: -0.022201613, z: 0}
+    m_Extent: {x: 0.107048124, y: 0.047798395, z: 0}
 --- !u!114 &4145335513944573173
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -333,7 +333,7 @@ MonoBehaviour:
       spriteIndex: 0
       corner: 1
       m_CornerMode: 1
-    - position: {x: -0.107048124, y: 0.18417975, z: 0}
+    - position: {x: -0.114096254, y: 0.02559676, z: 0}
       leftTangent: {x: 0, y: 0, z: 0}
       rightTangent: {x: 0, y: 0, z: 0}
       mode: 0
@@ -343,7 +343,7 @@ MonoBehaviour:
       spriteIndex: 0
       corner: 1
       m_CornerMode: 1
-    - position: {x: 0.11409624, y: 0.18629421, z: 0}
+    - position: {x: 0.07885559, y: 0.025596784, z: 0}
       leftTangent: {x: 0, y: 0, z: 0}
       rightTangent: {x: 0, y: 0, z: 0}
       mode: 0

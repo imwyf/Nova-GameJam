@@ -147,7 +147,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3190456695209523642, guid: 417ebfd3f6095584595eb6608c88ed83, type: 3}
       propertyPath: m_TagString
-      value: N
+      value: S
       objectReference: {fileID: 0}
     - target: {fileID: 3240404107801780562, guid: 417ebfd3f6095584595eb6608c88ed83, type: 3}
       propertyPath: strength
