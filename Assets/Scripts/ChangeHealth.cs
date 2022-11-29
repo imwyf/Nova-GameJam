@@ -8,7 +8,7 @@ using UnityEngine;
 /// </summary>
 public class ChangeHealth : MonoBehaviour
 {
-    public bool isAdd; // 是否
+    public bool isAdd; // 是否加血
     // todo: 无敌时间？
     private void OnTriggerEnter2D(Collider2D other)
     {
