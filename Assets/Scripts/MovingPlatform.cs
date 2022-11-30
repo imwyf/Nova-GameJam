@@ -9,11 +9,9 @@ public class MovingPlatform : MonoBehaviour
     public Transform[] movePos;//记录折返点
 
     private int i;
-    private Transform playerDefTransform;
     void Start()
     {
         i = 1;
-        playerDefTransform = GameObject.FindGameObjectWithTag("Player").transform.parent;//记录玩家原父对象
     }
 
     //在Update内实现移动
@@ -41,25 +39,4 @@ public class MovingPlatform : MonoBehaviour
         }
 
     }
-    //玩家与平台接触时，使玩家成为平台子对象，一起移动
-    private void OnCollisionEnter2D(Collision2D other)
-    {
-        if (other.gameObject.CompareTag("Player"))
-        {
-            other.gameObject.transform.parent = gameObject.transform;
-        }
-    }
-
-
-    //恢复玩家的父对象
-    private void OnCollisionExit2D(Collision2D other)
-    {
-        {
-            if (other.gameObject.CompareTag("Player"))
-            {
-                other.gameObject.transform.parent = playerDefTransform;
-            }
-        }
-    }
-
 }
