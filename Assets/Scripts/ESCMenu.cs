@@ -42,7 +42,7 @@ public class ESCMenu : MonoBehaviour
     {
         Application.Quit();
     }
-    public void ResetSence()
+    public void ResetScene()
     {
         Application.LoadLevel(Application.loadedLevel);
     }

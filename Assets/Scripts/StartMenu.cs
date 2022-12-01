@@ -12,5 +12,8 @@ public class StartMenu : MonoBehaviour
     {
         Application.Quit();
     }
-
+    public void BackToStartMenu()
+    {
+        SceneManager.LoadScene(0);
+    }
 }
