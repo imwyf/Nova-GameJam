@@ -664,7 +664,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a5d3cab58a8da4469bf564ec0eb2e11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 291090277}
+  player1: {fileID: 291090277}
+  player2: {fileID: 842692044}
   Margin: {x: 0, y: 0}
   smoothing: {x: 1, y: 1}
   Bounds: {fileID: 674890460}
@@ -981,6 +982,11 @@ MonoBehaviour:
   maxSpeed: 3
   h_force: 10
   v_force: 5
+--- !u!4 &842692044 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4271256440457338119, guid: 2705b6e0b8065bd48a100f136a51597a, type: 3}
+  m_PrefabInstance: {fileID: 85777507194971300}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1118638586
 GameObject:
   m_ObjectHideFlags: 0
