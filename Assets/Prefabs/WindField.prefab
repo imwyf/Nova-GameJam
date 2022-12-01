@@ -30,8 +30,7 @@ Transform:
   m_LocalPosition: {x: 2.37, y: 1.04, z: 0}
   m_LocalScale: {x: 1, y: 0.99999994, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 8428702537878260787}
+  m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -53,7 +52,7 @@ BoxCollider2D:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
     oldSize: {x: 2.1, y: 2.075}
-    newSize: {x: 0.2, y: 0.2}
+    newSize: {x: 2.1, y: 2.075}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
@@ -121,79 +120,9 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.2, y: 0.2}
+  m_Size: {x: 2.1, y: 2.075}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1001 &4750043830412672641
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 4750043829258609541}
-    m_Modifications:
-    - target: {fileID: 799997563110619203, guid: c7725d3427f5af24c8f8570806d69fd0, type: 3}
-      propertyPath: m_Name
-      value: MagnetSensor
-      objectReference: {fileID: 0}
-    - target: {fileID: 799997563110619203, guid: c7725d3427f5af24c8f8570806d69fd0, type: 3}
-      propertyPath: m_TagString
-      value: S
-      objectReference: {fileID: 0}
-    - target: {fileID: 2216017047260944575, guid: c7725d3427f5af24c8f8570806d69fd0, type: 3}
-      propertyPath: magnRate
-      value: 0.01
-      objectReference: {fileID: 0}
-    - target: {fileID: 3824488466895516338, guid: c7725d3427f5af24c8f8570806d69fd0, type: 3}
-      propertyPath: m_RootOrder
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3824488466895516338, guid: c7725d3427f5af24c8f8570806d69fd0, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3824488466895516338, guid: c7725d3427f5af24c8f8570806d69fd0, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3824488466895516338, guid: c7725d3427f5af24c8f8570806d69fd0, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3824488466895516338, guid: c7725d3427f5af24c8f8570806d69fd0, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3824488466895516338, guid: c7725d3427f5af24c8f8570806d69fd0, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3824488466895516338, guid: c7725d3427f5af24c8f8570806d69fd0, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3824488466895516338, guid: c7725d3427f5af24c8f8570806d69fd0, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3824488466895516338, guid: c7725d3427f5af24c8f8570806d69fd0, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3824488466895516338, guid: c7725d3427f5af24c8f8570806d69fd0, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3824488466895516338, guid: c7725d3427f5af24c8f8570806d69fd0, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: c7725d3427f5af24c8f8570806d69fd0, type: 3}
---- !u!4 &8428702537878260787 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 3824488466895516338, guid: c7725d3427f5af24c8f8570806d69fd0, type: 3}
-  m_PrefabInstance: {fileID: 4750043830412672641}
-  m_PrefabAsset: {fileID: 0}

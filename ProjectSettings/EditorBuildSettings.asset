@@ -12,8 +12,11 @@ EditorBuildSettings:
     path: Assets/Scenes/SecletLevel.unity
     guid: 510f61b8f5c5aa042be78fc297e8e410
   - enabled: 1
-    path: Assets/Scenes/Level 1.unity
-    guid: 8645e08620cdc2d43b311d09be1a03cb
+    path: Assets/Scenes/1.unity
+    guid: 315d5eaaf81e59148aa79bf766bc50b0
+  - enabled: 1
+    path: Assets/Scenes/2.unity
+    guid: f43ae20bcc6229d4fadd0b022ed98501
   - enabled: 1
     path: Assets/Scenes/GameOver.unity
     guid: 2cda990e2423bbf4892e6590ba056729

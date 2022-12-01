@@ -7,6 +7,7 @@ using UnityEngine;
 /// 2.本脚本应该挂在MagnetGen子物体上，不应挂在父物体上，以便确认sensor进入的是磁场而不是其他trigger
 /// 磁性控制（通过磁场产生作用力） --用胶囊碰撞体模拟磁场，超出碰撞体范围，磁场失效
 /// 3.MagnetGen的tag代表产生的磁场极性
+/// 4.根据磁性改变物体的颜色
 /// </summary>
 public class MagnetGen : MonoBehaviour
 {
