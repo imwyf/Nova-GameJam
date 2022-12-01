@@ -27,7 +27,10 @@ public class CameraController : MonoBehaviour
     {
         var x = transform.position.x;
         var y = transform.position.y;
-        camCenter = GetBetweenPoint(player1.position, player2.position);
+        if (player1 != null && player2 != null) camCenter = GetBetweenPoint(player1.position, player2.position);
+        else if (player1 == null && player2 != null) camCenter = player2.position;
+        else if (player2 == null && player1 != null) camCenter = player1.position;
+        else GameObject.Find("UI").transform.GetChild(0).gameObject.SetActive(true);
         if (IsFollowing)
         {
             if (Mathf.Abs(x - camCenter.x) > Margin.x)
